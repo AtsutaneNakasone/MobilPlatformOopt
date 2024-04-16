@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 7227250914304209759}
   - component: {fileID: 736505233476375932}
   - component: {fileID: 3758240002786099527}
-  - component: {fileID: 3393329163823731248}
   m_Layer: 0
   m_Name: Water Grate Variation 001
   m_TagString: Untagged
@@ -223,32 +222,10 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Size: {x: 3.95, y: 0.3, z: 4.02}
   m_Center: {x: 0.04, y: 0.15, z: 0}
---- !u!64 &3393329163823731248
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3620597295345458400}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 5
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 1195321554319310544, guid: a59f6548c14dfa84ba2ca07e21ce1543, type: 3}
 --- !u!1 &6703871679423678342
 GameObject:
   m_ObjectHideFlags: 0
