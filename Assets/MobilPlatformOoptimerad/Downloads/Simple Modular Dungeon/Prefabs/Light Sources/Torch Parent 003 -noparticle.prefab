@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3378643206010823238}
   m_Layer: 0
-  m_Name: Torch Parent 002
+  m_Name: Torch Parent 003 -noparticle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -144,7 +144,7 @@ Transform:
   m_GameObject: {fileID: 6065246966576265901}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.327, z: 0.013}
+  m_LocalPosition: {x: 0, y: 0.147, z: 0.061}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -265,11 +265,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4225455038105114327, guid: f62b31a3464faf14f934e38f9ee55eba,
         type: 3}
-      propertyPath: cullingMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 4225455038105114327, guid: f62b31a3464faf14f934e38f9ee55eba,
-        type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 0.7
       objectReference: {fileID: 0}
@@ -335,11 +330,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6365623636836061498, guid: f62b31a3464faf14f934e38f9ee55eba,
         type: 3}
-      propertyPath: cullingMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 6365623636836061498, guid: f62b31a3464faf14f934e38f9ee55eba,
-        type: 3}
       propertyPath: ShapeModule.radius.value
       value: 0.1
       objectReference: {fileID: 0}
@@ -395,11 +385,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7827578479462108488, guid: f62b31a3464faf14f934e38f9ee55eba,
         type: 3}
-      propertyPath: cullingMode
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 7827578479462108488, guid: f62b31a3464faf14f934e38f9ee55eba,
-        type: 3}
       propertyPath: InitialModule.startSize.scalar
       value: 1
       objectReference: {fileID: 0}
@@ -417,11 +402,6 @@ PrefabInstance:
         type: 3}
       propertyPath: InitialModule.startColor.maxColor.a
       value: 0.6509804
-      objectReference: {fileID: 0}
-    - target: {fileID: 8681542240799793754, guid: f62b31a3464faf14f934e38f9ee55eba,
-        type: 3}
-      propertyPath: cullingMode
-      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8681542240799793754, guid: f62b31a3464faf14f934e38f9ee55eba,
         type: 3}
@@ -454,7 +434,11 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 7683272320781719239, guid: f62b31a3464faf14f934e38f9ee55eba, type: 3}
+    - {fileID: 2730074263542334518, guid: f62b31a3464faf14f934e38f9ee55eba, type: 3}
+    - {fileID: 758249524779751364, guid: f62b31a3464faf14f934e38f9ee55eba, type: 3}
+    - {fileID: 6470549833601996427, guid: f62b31a3464faf14f934e38f9ee55eba, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5537283635842207538, guid: f62b31a3464faf14f934e38f9ee55eba,
         type: 3}
