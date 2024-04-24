@@ -136,7 +136,7 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 0.4.1
+  bundleVersion: 0.4.2
   preloadedAssets:
   - {fileID: -526212954370430586, guid: ee012d23c785bf347bc5e7bf0c40c3c2, type: 2}
   - {fileID: 11400000, guid: 1691c5ca1061c7b4499060071665fc61, type: 2}
@@ -264,8 +264,8 @@ PlayerSettings:
   AndroidTargetDevices: 0
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
-  AndroidKeystoreName: 
-  AndroidKeyaliasName: 
+  AndroidKeystoreName: C:/Users/jonat/OneDrive/VR Utv/Unity/Pub Keys/MobPlatInlVT24.keystore
+  AndroidKeyaliasName: mr.j
   AndroidEnableArmv9SecurityFeatures: 0
   AndroidBuildApkPerCpuArchitecture: 0
   AndroidTVCompatibility: 0
@@ -273,7 +273,7 @@ PlayerSettings:
   AndroidEnableTango: 0
   androidEnableBanner: 1
   androidUseLowAccuracyLocation: 0
-  androidUseCustomKeystore: 0
+  androidUseCustomKeystore: 1
   m_AndroidBanners:
   - width: 320
     height: 180

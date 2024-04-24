@@ -1,10 +1,12 @@
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class GateMovement : MonoBehaviour
 {
     public Animator animator;
     public AudioSource audioSource;
     [SerializeField] public AudioClip clip;
+    [SerializeField] private float volume;
 
     void Start()
     {
@@ -15,7 +17,7 @@ public class GateMovement : MonoBehaviour
     public void OpenGate()
     {
         animator.SetTrigger("ValveActivate");
-        audioSource.PlayOneShot(clip);
+        audioSource.PlayOneShot(clip, volume);
     }
     
 }
