@@ -116,6 +116,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6390546041324557715}
   - component: {fileID: 601565089456391385}
+  - component: {fileID: 971795495730627960}
   m_Layer: 0
   m_Name: Scene03
   m_TagString: Untagged
@@ -232,8 +233,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
-  checkMethod: 0
+  checkMethod: 1
   loadRange: 0
+--- !u!65 &971795495730627960
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8429818416354178509}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 13.074104, y: 3.695982, z: 33.230076}
+  m_Center: {x: -24.374619, y: 1.352009, z: 29.844454}
 --- !u!1 &8587091194422583456
 GameObject:
   m_ObjectHideFlags: 0
