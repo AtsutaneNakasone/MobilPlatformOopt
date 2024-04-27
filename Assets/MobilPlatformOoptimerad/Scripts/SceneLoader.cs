@@ -17,8 +17,8 @@ public class SceneLoader : MonoBehaviour
     //public float loadRange;
 
     //scene state
-    private bool isLoaded = false;
-    private bool shouldLoad = false;
+    private bool isLoaded;
+    private bool shouldLoad;
 
     void Start()
     {
@@ -65,7 +65,7 @@ public class SceneLoader : MonoBehaviour
         }
     }
     */
-    /*
+    
     void LoadScene()
     {
         if (!isLoaded)
@@ -74,8 +74,8 @@ public class SceneLoader : MonoBehaviour
             isLoaded = true;
         }
     }
-    */
-
+    
+    /*
     private void LoadScene()
     {
         if (!isLoaded)
@@ -86,8 +86,8 @@ public class SceneLoader : MonoBehaviour
             };
         }
     }
-
-    /*
+    */
+    
     void UnLoadScene()
     {
         if (isLoaded)
@@ -98,8 +98,8 @@ public class SceneLoader : MonoBehaviour
             }
         }
     }
-    */
-
+    
+    /*
     private void UnLoadScene()
     {
         if (isLoaded)
@@ -110,7 +110,7 @@ public class SceneLoader : MonoBehaviour
             };
         }
     }
-
+    */
     /*
     void UnLoadScene()
     {

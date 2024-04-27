@@ -7,29 +7,28 @@ using UnityEngine.UI;
 public class start : MonoBehaviour
 {
     //public GameObject menu;
-    public GameObject loadingInterface;
-    public Image loadingProgressBar;
+    //public GameObject loadingInterface;
+    //public Image loadingProgressBar;
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 
     private void Start()
     {
-        ShowLoadingScreen();
+        //ShowLoadingScreen();
         //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01"));
         scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01", LoadSceneMode.Additive));
         //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene02", LoadSceneMode.Additive));
-        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene03", LoadSceneMode.Additive));
-        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene04", LoadSceneMode.Additive));
-        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene05", LoadSceneMode.Additive));
 
-        StartCoroutine(LoadingScreen());
+
+        //StartCoroutine(LoadingScreen());
     }
-
+    /*
     public void ShowLoadingScreen()
     {
         loadingInterface.SetActive(true);
     }
-
+    */
+    /*
     IEnumerator LoadingScreen()
     {
         float totalProgress = 0;
@@ -43,7 +42,7 @@ public class start : MonoBehaviour
             }
         }
     }
-
+    */
     /*
     IEnumerator LoadingScreen()
     {
