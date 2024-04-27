@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 7486717646440308377}
   - component: {fileID: -2064853419532698833}
-  - component: {fileID: 4428745628915286648}
   m_Layer: 0
   m_Name: Scene03
   m_TagString: Untagged
@@ -130,27 +129,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3580244194297282058, guid: abb909ff65b03d34090b291fd9037f2d, type: 3}
---- !u!65 &4428745628915286648
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 258717043102055585}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 12.157984, y: 6.444768, z: 39.905113}
-  m_Center: {x: -23.880737, y: 2.722384, z: 34.09557}
 --- !u!1 &388178406325750404
 GameObject:
   m_ObjectHideFlags: 0

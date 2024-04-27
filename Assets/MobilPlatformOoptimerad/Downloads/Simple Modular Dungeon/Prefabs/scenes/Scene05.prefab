@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 143396218261378331}
   - component: {fileID: 4928460368684826948}
-  - component: {fileID: 8809570962236692772}
   m_Layer: 0
   m_Name: Scene05
   m_TagString: Untagged
@@ -172,27 +171,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 3580244194297282058, guid: abb909ff65b03d34090b291fd9037f2d, type: 3}
---- !u!65 &8809570962236692772
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1230551884628500750}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 1
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 29.140453, y: 6.429487, z: 31.866867}
-  m_Center: {x: -3.8461857, y: 2.7147436, z: 37.926315}
 --- !u!1001 &7609884260876004
 PrefabInstance:
   m_ObjectHideFlags: 0

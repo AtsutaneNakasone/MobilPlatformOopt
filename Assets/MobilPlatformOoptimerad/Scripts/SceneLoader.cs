@@ -35,7 +35,7 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    void Update()
+    void FixedUpdate()
     {
         /*
         if (checkMethod == CheckMethod.Distance) 
