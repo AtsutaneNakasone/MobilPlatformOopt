@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/MobilPlatformOoptimerad/Scenes/Stage.unity
     guid: 08905a16bd4fe1548a73dee5d9c77fcb
+  - enabled: 1
+    path: Assets/MobilPlatformOoptimerad/Scenes/Scene01.unity
+    guid: a459bcd94d4f2d245a2b30db75aee86a
+  - enabled: 1
+    path: Assets/MobilPlatformOoptimerad/Scenes/Scene02.unity
+    guid: ddffd81f01511cb409ec5eaae53f2d1c
+  - enabled: 1
+    path: Assets/MobilPlatformOoptimerad/Scenes/Scene03.unity
+    guid: e575a183d91d9b24ab78c327d0dbcfc6
+  - enabled: 1
+    path: Assets/MobilPlatformOoptimerad/Scenes/Scene04.unity
+    guid: 31598784686195f49841dfc6656a3b90
+  - enabled: 1
+    path: Assets/MobilPlatformOoptimerad/Scenes/Scene05.unity
+    guid: b4e7b66ce7c1f2a42a57504f7382684c
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 1691c5ca1061c7b4499060071665fc61,
       type: 2}

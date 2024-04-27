@@ -4,20 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-
 public class start : MonoBehaviour
 {
-    public GameObject menu;
+    //public GameObject menu;
     public GameObject loadingInterface;
     public Image loadingProgressBar;
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 
-    // Start is called before the first frame update
     void Start()
     {
         ShowLoadingScreen();
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Stage"));
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01"));
         scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01", LoadSceneMode.Additive));
         StartCoroutine(LoadingScreen());
     }
@@ -41,9 +39,24 @@ public class start : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
-    void Update()
+    /*
+    IEnumerator LoadingScreen()
     {
-        
+        while (true)
+        {
+            float totalProgress = 0;
+            foreach (var sceneLoadOperation in scenesToLoad)
+            {
+                totalProgress += sceneLoadOperation.progress;
+            }
+            loadingProgressBar.fillAmount = totalProgress / scenesToLoad.Count;
+            if (scenesToLoad.TrueForAll(t => t.isDone)) // Kontrollera om alla scener är helt laddade
+            {
+                break;
+            }
+            yield return null;
+        }
     }
+    */
+
 }
