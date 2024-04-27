@@ -1,23 +1,25 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/*
 public enum CheckMethod
 {
     Distance,
     Trigger
 }
+*/
 
 public class SceneLoader : MonoBehaviour
 {
     public Transform player;
-    public CheckMethod checkMethod;
-    public float loadRange;
+   //public CheckMethod checkMethod;
+    //public float loadRange;
 
     //scene state
-    private bool isLoaded;
-    private bool shouldLoad;
+    private bool isLoaded = false;
+    private bool shouldLoad = false;
 
-    // Start is called before the first frame update
     void Start()
     {
         if (SceneManager.sceneCount > 0)
@@ -33,9 +35,9 @@ public class SceneLoader : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
+        /*
         if (checkMethod == CheckMethod.Distance) 
         {
             DistanceCheck();
@@ -44,7 +46,12 @@ public class SceneLoader : MonoBehaviour
         {
             TriggerCheck();
         }
+        */
+
+        TriggerCheck();
+
     }
+    /*
     void DistanceCheck()
     {
         if (Vector3.Distance(player.position, transform.position) < loadRange)
@@ -56,18 +63,30 @@ public class SceneLoader : MonoBehaviour
             UnLoadScene();
         }
     }
+    */
 
+    void LoadScene()
+    {
+        if (!isLoaded)
+        {
+            SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive);
+            isLoaded = true;
+        }
+    }
+
+    /*
 void LoadScene()
     {
         if (!isLoaded)
         {
             SceneManager.LoadSceneAsync(gameObject.name, LoadSceneMode.Additive).completed += (AsyncOperation op) =>
             {
-                isLoaded = true; // Set isLoaded when the scene has actually loaded
+                isLoaded = true;
             };
         }
     }
-
+    */
+    /*
     void UnLoadScene()
     {
         if (isLoaded)
@@ -78,8 +97,8 @@ void LoadScene()
             }
         }
     }
+    */
 
-    /*
     void UnLoadScene()
     {
         if (isLoaded)
@@ -90,7 +109,7 @@ void LoadScene()
             };
         }
     }
-    */
+
     /*
     void UnLoadScene()
     {
@@ -119,6 +138,27 @@ void LoadScene()
             shouldLoad = true;
         }
     }
+
+    /*
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            StartCoroutine(DelayedUnload());
+        }
+    }
+
+    IEnumerator DelayedUnload()
+    {
+        yield return new WaitForSeconds(5);  // Väntar 5 sekunder innan avlastning
+        if (!shouldLoad)  // Kontrollera att spelaren fortfarande är utanför trigger-området
+        {
+            UnLoadScene();
+        }
+    }
+    */
+
+    
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Player"))
@@ -126,6 +166,7 @@ void LoadScene()
             shouldLoad = false;
         }
     }
+    
 
     void TriggerCheck()
     {
