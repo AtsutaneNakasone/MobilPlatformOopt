@@ -6,21 +6,12 @@ using UnityEngine.UI;
 
 public class start : MonoBehaviour
 {
-    //public GameObject menu;
-    //public GameObject loadingInterface;
-    //public Image loadingProgressBar;
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 
     private void Start()
     {
-        //ShowLoadingScreen();
-        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01"));
         scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01", LoadSceneMode.Additive));
-        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene02", LoadSceneMode.Additive));
-
-
-        //StartCoroutine(LoadingScreen());
     }
     /*
     public void ShowLoadingScreen()
