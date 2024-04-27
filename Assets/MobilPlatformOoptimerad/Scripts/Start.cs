@@ -12,15 +12,15 @@ public class start : MonoBehaviour
 
     List<AsyncOperation> scenesToLoad = new List<AsyncOperation>();
 
-    void Start()
+    private void Start()
     {
         ShowLoadingScreen();
         //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01"));
-        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01", LoadSceneMode.Additive));
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene02", LoadSceneMode.Additive));
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene03", LoadSceneMode.Additive));
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene04", LoadSceneMode.Additive));
-        scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene05", LoadSceneMode.Additive));
+        scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene01", LoadSceneMode.Additive));
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene02", LoadSceneMode.Additive));
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene03", LoadSceneMode.Additive));
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene04", LoadSceneMode.Additive));
+        //scenesToLoad.Add(SceneManager.LoadSceneAsync("Scene05", LoadSceneMode.Additive));
 
         StartCoroutine(LoadingScreen());
     }

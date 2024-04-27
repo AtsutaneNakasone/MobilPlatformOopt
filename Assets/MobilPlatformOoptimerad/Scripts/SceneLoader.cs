@@ -51,6 +51,7 @@ public class SceneLoader : MonoBehaviour
         TriggerCheck();
 
     }
+
     /*
     void DistanceCheck()
     {
@@ -64,7 +65,7 @@ public class SceneLoader : MonoBehaviour
         }
     }
     */
-
+    /*
     void LoadScene()
     {
         if (!isLoaded)
@@ -73,9 +74,9 @@ public class SceneLoader : MonoBehaviour
             isLoaded = true;
         }
     }
+    */
 
-    /*
-void LoadScene()
+    private void LoadScene()
     {
         if (!isLoaded)
         {
@@ -85,7 +86,7 @@ void LoadScene()
             };
         }
     }
-    */
+
     /*
     void UnLoadScene()
     {
@@ -99,7 +100,7 @@ void LoadScene()
     }
     */
 
-    void UnLoadScene()
+    private void UnLoadScene()
     {
         if (isLoaded)
         {
@@ -166,9 +167,8 @@ void LoadScene()
             shouldLoad = false;
         }
     }
-    
 
-    void TriggerCheck()
+    private void TriggerCheck()
     {
         if (shouldLoad)
         {
