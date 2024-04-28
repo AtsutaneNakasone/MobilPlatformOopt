@@ -8,8 +8,9 @@ OcclusionCullingSettings:
     smallestOccluder: 5
     smallestHole: 0.25
     backfaceThreshold: 100
-  m_SceneGUID: 00000000000000000000000000000000
-  m_OcclusionCullingData: {fileID: 0}
+  m_SceneGUID: a459bcd94d4f2d245a2b30db75aee86a
+  m_OcclusionCullingData: {fileID: 36300000, guid: db00b8f2e422e264da1e3c672e11251d,
+    type: 2}
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
@@ -97,7 +98,8 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000008, guid: 5ded419e01bfada43b1def0236a930a3,
+    type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -696,6 +698,11 @@ PrefabInstance:
     - target: {fileID: 7422367964809054367, guid: 25ddc0a83982f2943b35c45ce588ce57,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8971499367619642666, guid: 25ddc0a83982f2943b35c45ce588ce57,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1820,6 +1827,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1560327420344147943, guid: 25e506ac1b928c04b9670bc84a1bde3d,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2802447175578492421, guid: 25e506ac1b928c04b9670bc84a1bde3d,
         type: 3}
       propertyPath: m_Name
@@ -1888,7 +1900,7 @@ PrefabInstance:
     - target: {fileID: 8766243454725994216, guid: 25e506ac1b928c04b9670bc84a1bde3d,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1986,6 +1998,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 447534409736712073, guid: 37be96c9356cdec4cbea554e8db1fd75,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3636616393277831072, guid: 37be96c9356cdec4cbea554e8db1fd75,
         type: 3}
       propertyPath: m_Enabled
@@ -1994,7 +2011,7 @@ PrefabInstance:
     - target: {fileID: 3647054164562416041, guid: 37be96c9356cdec4cbea554e8db1fd75,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4796596267081106640, guid: 37be96c9356cdec4cbea554e8db1fd75,
         type: 3}
@@ -6824,7 +6841,7 @@ PrefabInstance:
     - target: {fileID: 606200731960560640, guid: d9ba3d2c925ed38428d1dc575e2c4294,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5095726377993507351, guid: d9ba3d2c925ed38428d1dc575e2c4294,
         type: 3}
@@ -6880,6 +6897,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 5284758188814770587, guid: d9ba3d2c925ed38428d1dc575e2c4294,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6105825760280068864, guid: d9ba3d2c925ed38428d1dc575e2c4294,
         type: 3}
@@ -7592,7 +7614,7 @@ PrefabInstance:
     - target: {fileID: 1614508908391201154, guid: e9c8a5779f5ada546983fa0209e9f03a,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2118273674020972012, guid: e9c8a5779f5ada546983fa0209e9f03a,
         type: 3}
@@ -7602,6 +7624,11 @@ PrefabInstance:
     - target: {fileID: 2118273674020972012, guid: e9c8a5779f5ada546983fa0209e9f03a,
         type: 3}
       propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5663990488806489179, guid: e9c8a5779f5ada546983fa0209e9f03a,
+        type: 3}
+      propertyPath: m_CastShadows
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6436319484819819811, guid: e9c8a5779f5ada546983fa0209e9f03a,
@@ -8039,6 +8066,11 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 447534409736712073, guid: 37be96c9356cdec4cbea554e8db1fd75,
+        type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3636616393277831072, guid: 37be96c9356cdec4cbea554e8db1fd75,
         type: 3}
       propertyPath: m_Enabled
@@ -8047,7 +8079,7 @@ PrefabInstance:
     - target: {fileID: 3647054164562416041, guid: 37be96c9356cdec4cbea554e8db1fd75,
         type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4796596267081106640, guid: 37be96c9356cdec4cbea554e8db1fd75,
         type: 3}
